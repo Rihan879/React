@@ -9,6 +9,7 @@ import Counter from "./components/Counter";
 import ToggleText from './components/ToggleText';
 import CharacterCounter from './components/CharacterCounter';
 import Todo from './components/Todo';
+import ColorChanger from './components/ColorChanger';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <Counter /> */}
       {/* <ToggleText /> */}
       {/* <CharacterCounter /> */}
-      <Todo />
+      <ColorChanger />
+      {/* <Todo /> */}
     </div>
   );
 }
