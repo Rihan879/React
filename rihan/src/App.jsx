@@ -6,6 +6,7 @@ import './App.css'
 import Student from './components/Student'
 import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
+import ToggleText from './components/ToggleText';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
     //   <Greeting />
     // </div>
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      <ToggleText />
     </div>
   );
 }
