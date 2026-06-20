@@ -7,6 +7,7 @@ import Student from './components/Student'
 import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
 import ToggleText from './components/ToggleText';
+import CharacterCounter from './components/CharacterCounter';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     // </div>
     <div>
       {/* <Counter /> */}
-      <ToggleText />
+      {/* <ToggleText /> */}
+      <CharacterCounter />
     </div>
   );
 }
