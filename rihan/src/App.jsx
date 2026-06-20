@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Student from './components/Student'
 import Greeting from "./components/Greeting";
-
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -16,8 +16,11 @@ function App() {
     //     marks={85}
     //   />
     // </div>
-     <div>
-      <Greeting />
+    //  <div>
+    //   <Greeting />
+    // </div>
+    <div>
+      <Counter />
     </div>
   );
 }
