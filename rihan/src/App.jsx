@@ -8,6 +8,7 @@ import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
 import ToggleText from './components/ToggleText';
 import CharacterCounter from './components/CharacterCounter';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     <div>
       {/* <Counter /> */}
       {/* <ToggleText /> */}
-      <CharacterCounter />
+      {/* <CharacterCounter /> */}
+      <Todo />
     </div>
   );
 }
